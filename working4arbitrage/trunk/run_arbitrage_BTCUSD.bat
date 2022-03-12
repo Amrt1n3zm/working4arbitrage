@@ -1,0 +1,2 @@
+python w4arbitrage.py --markets "vcx|BTC/USD intrsng|BTC/USD cbx|BTC/USD bc|BTC/USD rock|BTC/USD bitme|BTC/USD btc24|BTC/USD bitfloor|BTC/USD btce|BTC/USD bitstamp|BTC/USD mtgox|BTC/USD" --action arbitrage --currency1 100 --loop 900 --plot --reldiff 4 python w4arbitrage.py --markets "bc|BTCUSD rock|BTCUSD bitme|BTCUSD btc24|BTCUSD bitfloor|BTCUSD btce|BTCUSD bitstamp|BTCUSD mtgox|BTCUSD" --action arbitrage --currency1 100 --loop 900 --plot --reldiff 4 --sendemail
+pause
